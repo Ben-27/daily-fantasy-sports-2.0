@@ -20,7 +20,7 @@ def flatten_columns(df):
         cols.append(' '.join([a, b]).strip())
     return cols
 
-def initiate_session(login_url='https://fantasydata.com/user/login', email='benjamin.absalon@gmail.com', password='Element.27'):
+def initiate_session(email, password, login_url='https://fantasydata.com/user/login'):
     """
     Initiates a logged-on session of FantasyData.
 
